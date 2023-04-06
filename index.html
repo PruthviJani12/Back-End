@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rishton Academy Primary School</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img id="logo" src="images/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                    
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Students</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="enrol_student.php">Enrol New Student</a></li>
+                                    <li><a class="dropdown-item" href="view_student.php">View All students</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Parents</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="add_parents.php">Add Parent</a></li>
+                                    <li><a class="dropdown-item" href="view_parents.php">View Parent Data</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Class</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="enrol_class.php">Enrol in Class</a></li>
+                                    <li><a class="dropdown-item" href="view_class.php">View all Classes</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Teacher</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="add_teachers.php">Add Teachers</a></li>
+                                    <li><a class="dropdown-item" href="view_teachers.php">View all Teachers</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Liabray</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="liabrary.php">Issue A Book</a></li>
+                                    <li><a class="dropdown-item" href="view_liabrary.php">View all issed Books</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown">Sports</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="sports.php">Register for Sports</a></li>
+                                    <li><a class="dropdown-item" href="view_sports.php">View all Sports details</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact_us.php">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xl-12 col-xxl-12">
+
+                
+                    <div class="bg-text">Rishton Academy Primary School</div>
+
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xs-12 col-xl-4 col-xxl-4">
+                    <!-- Carousel -->
+                    <h3>Facilities</h3>
+                    <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/home/fascilities/classroom.jpg" alt="Los Angeles" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Classrooms</h3>
+                                    <p>We have spacious Classrooms.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home/fascilities/liabrary.jpg" alt="Chicago" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Liabrary</h3>
+                                    <p>The liabrary with plethora of books.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home/fascilities/playground.jpg" alt="New York" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>PLayground</h3>
+                                    <p>Large playground with different activities to do.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        
+
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xs-12 col-xl-4 col-xxl-4">
+                    <h3>Extracurricular Activities</h3>
+                    <!-- Carousel -->
+                    <div id="carousel2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/home/extra curriculum/jengo.jpg" alt="Los Angeles" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Borad-Games</h3>
+                                    <p>There are a lot of board-game available: </p>
+                                    <p>Jengo,Ludo,Chess, etc..</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home/extra curriculum/basketball.jpg" alt="Chicago" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Basket Ball Team</h3>
+                                    <p>We have basketball team for students who interested in it.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home/extra curriculum/origami.jpg" alt="New York" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Origami</h3>
+                                    <p>We also have an Origami class</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xs-12 col-xl-4 col-xxl-4">
+                    <h3>School events</h3>
+                    <!-- Carousel -->
+                    <div id="carousel3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                        <!-- Indicators/dots -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0"
+                                class="active"></button>
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"></button>
+                        </div>
+
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/home/events/dance.jpg" alt="Los Angeles" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Dancing Competetion</h3>
+                                    <p>We arrange Dance Competetion to explore students abilities.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home/events/costume.jpg" alt="Chicago" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Fancy Dress/Cosplay</h3>
+                                    <p>For Fun</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/home/events/sports.jpg" alt="New York" class="d-block">
+                                <div class="carousel-caption">
+                                    <h3>Sports Week</h3>
+                                    <p>We arrange sports week for better health of students</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="container-fluid mt-3">
+        <div class="raw">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xl-12 col-xxl-12">
+                <marquee class="copyrights" behavior="alternate"> &#169; 2023 &#124; Rishton Academy Primary School
+                    , All rights Reserved.
+                </marquee>
+            </div>
+        </div>
+</footer>
+
+</html>
